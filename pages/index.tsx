@@ -1,3 +1,7 @@
-const IndexPage = () => <p>Hello World</p>;
+import { Portfolio } from './portfolio';
+
+const IndexPage = () => {
+  return <Portfolio />;
+};
 
 export default IndexPage;
