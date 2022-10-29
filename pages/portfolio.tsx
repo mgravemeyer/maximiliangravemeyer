@@ -13,7 +13,7 @@ import {
 import logo from '../public/media/logo.jpg';
 import profilePic from '../public/media/profile.jpg';
 
-export const Portfolio: React.FC = () => {
+const Portfolio: React.FC = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center mt-4 sm:mt-8 lg:mt-16 xl:mx-0">
       <div className="w-full px-4 sm:px-32 lg:w-[900px] lg:px-0">
@@ -165,3 +165,5 @@ const Footer = () => {
     </div>
   );
 };
+
+export default Portfolio;
