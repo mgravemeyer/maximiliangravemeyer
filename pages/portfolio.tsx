@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import {
   EMAIL,
@@ -15,47 +16,60 @@ import profilePic from '../public/media/profile.jpg';
 
 const Portfolio: React.FC = () => {
   return (
-    <div className="flex flex-col w-full justify-center items-center mt-4 sm:mt-8 lg:mt-16 xl:mx-0">
-      <div className="w-full px-4 sm:px-32 lg:w-[900px] lg:px-0">
-        <div className="flex flex-col lg:flex-row">
-          <div className="flex flex-col lg:w-82 lg:mt-12">
-            <Image className="w-16 h-16" src={logo} alt="logo" />
-            <h1 className=" font-quickLight mt-4 text-3xl mr-8 leading-normal">
-              I’m a freelance web developer
-            </h1>
-            <DesktopContactButtons />
+    <>
+      <Head>
+        <title>Maximilian Gravemeyer</title>
+        <meta
+          name="description"
+          content="Freelance Developer | Maximilian Gravemeyer"
+        />
+        <meta
+          name="keywords"
+          content="Gravemeyer, Freelancer, React, Next, Developer"
+        />
+        <meta name="author" content="Maximilian Gravemeyer" />
+      </Head>
+      <div className="flex flex-col w-full justify-center items-center mt-4 sm:mt-8 lg:mt-16 xl:mx-0">
+        <div className="w-full px-4 sm:px-32 lg:w-[900px] lg:px-0">
+          <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col lg:w-82 lg:mt-12">
+              <Image className="w-16 h-16" src={logo} alt="logo" />
+              <h1 className=" font-quickLight mt-4 text-3xl mr-8 leading-normal">
+                I’m a freelance web developer
+              </h1>
+              <DesktopContactButtons />
+            </div>
+            <div className=" w-full">
+              <Image
+                className="mt-4 lg:mt-0"
+                src={profilePic}
+                alt="profile picture"
+              />
+            </div>
           </div>
-          <div className=" w-full">
-            <Image
-              className="mt-4 lg:mt-0"
-              src={profilePic}
-              alt="profile picture"
-              loading="eager"
-            />
+          <MobileContactButtons />
+          <div className=" lg:ml-[300px] lg:w-[400px]">
+            <div className="mt-12">
+              <p className="font-quickMedium">About Me</p>
+              <p className="font-quickLight">
+                I'm a Full-stack developer that is experienced in modern web
+                frameworks like react and node. I solve all kinds of problems in
+                my day-to-day work while working on software products.
+              </p>
+            </div>
+            <div className="mt-8">
+              <p className="font-quickMedium">Skills & Focus</p>
+              <p className="font-quickLight">
+                I'm a Full-stack developer that is experienced in modern web
+                frameworks like react and node. I solve all kinds of problems in
+                my day-to-day work while working on software products.
+              </p>
+            </div>
           </div>
         </div>
-        <MobileContactButtons />
-        <div className=" lg:ml-[300px] lg:w-[400px]">
-          <div className="mt-12">
-            <p className="font-quickMedium">About Me</p>
-            <p className="font-quickLight">
-              I'm a Full-stack developer that is experienced in modern web
-              frameworks like react and node. I solve all kinds of problems in
-              my day-to-day work while working on software products.
-            </p>
-          </div>
-          <div className="mt-8">
-            <p className="font-quickMedium">Skills & Focus</p>
-            <p className="font-quickLight">
-              I'm a Full-stack developer that is experienced in modern web
-              frameworks like react and node. I solve all kinds of problems in
-              my day-to-day work while working on software products.
-            </p>
-          </div>
-        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
 
@@ -151,12 +165,14 @@ const Footer = () => {
   return (
     <div className=" w-full h-12 bg-stone-900 mt-24 flex flex-row justify-center items-center">
       <a
+        href={IMPRESSUM}
         onClick={redirectImpressum}
         className="text-white font-quickMedium hover:cursor-pointer"
       >
         Impressum
       </a>
       <a
+        href={DATENSCHUTZ}
         onClick={redirectDatenschutz}
         className="text-white font-quickMedium hover:cursor-pointer ml-4"
       >
