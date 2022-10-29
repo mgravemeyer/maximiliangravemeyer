@@ -11,10 +11,14 @@ import {
   DATENSCHUTZ,
 } from '../const';
 
+import useTranslation from 'next-translate/useTranslation';
+
 import logo from '../public/media/logo.jpg';
 import profilePic from '../public/media/profile.jpg';
 
 const Portfolio: React.FC = () => {
+  const { t, lang } = useTranslation('portfolio'); //fixme don't type as any, extend I18N type
+
   return (
     <>
       <Head>
@@ -33,10 +37,10 @@ const Portfolio: React.FC = () => {
       <div className="flex flex-col w-full justify-center items-center mt-4 sm:mt-8 lg:mt-16 xl:mx-0">
         <div className="w-full px-4 sm:px-32 lg:w-[900px] lg:px-0">
           <div className="flex flex-col lg:flex-row">
-            <div className="flex flex-col lg:w-82 lg:mt-12">
+            <div className="flex flex-col lg:w-[26rem] lg:mt-12">
               <Image className="w-16 h-16" src={logo} alt="logo" />
               <h1 className=" font-quickLight mt-4 text-3xl mr-8 leading-normal">
-                I’m a freelance web developer
+                {t('title')}
               </h1>
               <DesktopContactButtons />
             </div>
@@ -49,24 +53,17 @@ const Portfolio: React.FC = () => {
             </div>
           </div>
           <MobileContactButtons />
-          <div className=" lg:ml-[300px] lg:w-[400px]">
+          <div className=" lg:ml-[285px] lg:w-[400px]">
+            {/* //todo need to move this block under the profile picture */}
             <div className="mt-12">
               <p className="font-quickMedium">About Me</p>
-              <p className="font-quickLight">
-                I'm a Full-stack developer that is experienced in modern web
-                frameworks like react and node. I solve all kinds of problems in
-                my day-to-day work while working on software products.
-              </p>
+              <p className="font-quickLight">{t('description')}</p>
             </div>
             <div className="mt-8">
               <p className="font-quickMedium">Skills & Focus</p>
-              <p className="font-quickLight">
-                Frontend Development (React, Next, Vue)
-              </p>
-              <p className="font-quickLight">
-                Backend Development (Node, Deno, Symfony)
-              </p>
-              <p className="font-quickLight">UI/UX and Prototyping</p>
+              <p className="font-quickLight">{t('firstSkill')}</p>
+              <p className="font-quickLight">{t('secondSkill')}</p>
+              <p className="font-quickLight">{t('thirdSkill')}</p>
             </div>
           </div>
         </div>
