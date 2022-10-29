@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body,
-#__next {
-  width: 100%;
-  height: 100%;
-}
-
 @font-face {
   font-family: 'Quicksand Bold';
   src: url('../public//fonts/Quicksand-Bold.ttf');
