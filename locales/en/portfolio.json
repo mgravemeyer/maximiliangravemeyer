@@ -3,5 +3,11 @@
   "description": "I'm a Full-stack developer that is experienced in modern web frameworks like react and node. I solve all kinds of problems in my day-to-day work while working on software products.",
   "firstSkill": "Frontend Development (React, Next, Vue)",
   "secondSkill": "Backend Development (Node, Express, Symfony)",
-  "thirdSkill": "UI/UX optimization and prototyping"
+  "thirdSkill": "UI/UX optimization and prototyping",
+  "projectsSeparator": "Projects that I worked on ↓",
+  "contactSeparator": "Contact Me For Projects ↓",
+  "phoneButton": "Telephone",
+  "ttJob": "Developing a headless online shop in a team using modern frontend frameworks like next.js while incorporating data from backend services.",
+  "armbrJob": "Developing Web Apps, Shopware 5/6 plugins, scripts, and maintaining online shops.",
+  "seglerJob": "Developing an award winning iOS Enterprise App for protocolling internal processes."
 }

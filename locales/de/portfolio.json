@@ -3,5 +3,11 @@
   "description": "Ich bin ein Full-Stack Entwickler mit Erfahrung in modernen Web Frameworks wie React.js und Node.js Ich löse alle möglichen Problem in meiner täglichen Arbeit an Softwareprodukten.",
   "firstSkill": "Frontend Entwicklung (React, Next, Vue)",
   "secondSkill": "Backend Entwicklung (Node, Express, Symfony)",
-  "thirdSkill": "UI/UX Optimierung und Entwicklung"
+  "thirdSkill": "UI/UX Optimierung und Entwicklung",
+  "projectsSeparator": "Projekte an denen ich gearbeitet habe ↓",
+  "contactSeparator": "Kontaktiere mich für eine Zusammenarbeit ↓",
+  "phoneButton": "Telefon",
+  "ttJob": "Entwicklung eines headless Onlineshops in einem Team. Es wurden moderne frameworks wie Next.js benutzt, während Daten und Services von verschiedenen anderen System mit eingebunden wurden.",
+  "armbrJob": "Entwicklung von Webanwendungen, Shopware 5/6 Plugins, Skripte und die Wartung von Onlineshops.",
+  "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen."
 }

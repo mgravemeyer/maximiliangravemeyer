@@ -1,7 +1,7 @@
-import Portfolio from './portfolio';
+import LanguageSwitch from './LanguageSwitch';
 
 const IndexPage = () => {
-  return <Portfolio />;
+  return <LanguageSwitch />;
 };
 
 export default IndexPage;

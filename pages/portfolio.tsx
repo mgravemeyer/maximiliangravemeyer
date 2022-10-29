@@ -16,6 +16,10 @@ import useTranslation from 'next-translate/useTranslation';
 import logo from '../public/media/logo.jpg';
 import profilePic from '../public/media/profile.jpg';
 
+import armbr from '../public/media/projects/armbr.png';
+import tt from '../public/media/projects/tt.jpg';
+import segler from '../public/media/projects/segler.jpg';
+
 const Portfolio: React.FC = () => {
   const { t, lang } = useTranslation('portfolio');
 
@@ -52,7 +56,7 @@ const Portfolio: React.FC = () => {
               />
             </div>
           </div>
-          <MobileContactButtons />
+          <MobileContactButtons hideOnDesktop />
           <div className=" lg:ml-[285px] lg:w-[400px]">
             {/* //todo need to move this block under the profile picture */}
             <div className="mt-12">
@@ -65,6 +69,39 @@ const Portfolio: React.FC = () => {
               <p className="font-quickLight">{t('secondSkill')}</p>
               <p className="font-quickLight">{t('thirdSkill')}</p>
             </div>
+            <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
+              {t('projectsSeparator')}
+            </p>
+            <div className="font-quickMedium mt-4">
+              <Image
+                className="mt-4 h-6 w-auto"
+                src={tt}
+                alt="tom tailor showcase"
+              />
+              <p className="font-quickLight mt-2 ml-1">{t('ttJob')}</p>
+            </div>
+            <div className="font-quickMedium mt-8">
+              <div className="bg-black w-fit py-1 px-1 flex justify-center items-center">
+                <Image
+                  className="h-10 w-auto mb-1"
+                  src={armbr}
+                  alt="armbrüster consulting showcase"
+                />
+              </div>
+              <p className="font-quickLight mt-2 ml-1">{t('armbrJob')}</p>
+            </div>
+            <div className="font-quickMedium mt-8">
+              <Image
+                className="mt-4 h-12 w-auto"
+                src={segler}
+                alt="segler showcase"
+              />
+              <p className="font-quickLight mt-2 ml-1">{t('seglerJob')}</p>
+            </div>
+            <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
+              {t('contactSeparator')}
+            </p>
+            <MobileContactButtons hideOnDesktop={false} />
           </div>
         </div>
         <Footer />
@@ -106,9 +143,15 @@ const DesktopContactButtons = () => {
   );
 };
 
-const MobileContactButtons = () => {
+const MobileContactButtons = ({
+  hideOnDesktop,
+}: {
+  hideOnDesktop: boolean;
+}) => {
+  const { t, lang } = useTranslation('portfolio');
+
   return (
-    <div className="lg:hidden">
+    <div className={`${hideOnDesktop ? 'lg:hidden' : ''}`}>
       <div className=" flex flex-row mt-4">
         <ContactButton
           name="E-Mail"
@@ -116,7 +159,7 @@ const MobileContactButtons = () => {
           className="mr-1"
         />
         <ContactButton
-          name="Telephone"
+          name={t('phoneButton')}
           target={`tel:${PHONE}`}
           className="ml-1"
         />
