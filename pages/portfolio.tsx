@@ -17,7 +17,7 @@ import logo from '../public/media/logo.jpg';
 import profilePic from '../public/media/profile.jpg';
 
 const Portfolio: React.FC = () => {
-  const { t, lang } = useTranslation('portfolio'); //fixme don't type as any, extend I18N type
+  const { t, lang } = useTranslation('portfolio');
 
   return (
     <>
