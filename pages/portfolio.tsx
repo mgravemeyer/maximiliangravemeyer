@@ -19,6 +19,7 @@ const Portfolio: React.FC = () => {
     <>
       <Head>
         <title>Maximilian Gravemeyer</title>
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
           content="Freelance Developer | Maximilian Gravemeyer"
@@ -60,10 +61,12 @@ const Portfolio: React.FC = () => {
             <div className="mt-8">
               <p className="font-quickMedium">Skills & Focus</p>
               <p className="font-quickLight">
-                I'm a Full-stack developer that is experienced in modern web
-                frameworks like react and node. I solve all kinds of problems in
-                my day-to-day work while working on software products.
+                Frontend Development (React, Next, Vue)
               </p>
+              <p className="font-quickLight">
+                Backend Development (Node, Deno, Symfony)
+              </p>
+              <p className="font-quickLight">UI/UX and Prototyping</p>
             </div>
           </div>
         </div>
