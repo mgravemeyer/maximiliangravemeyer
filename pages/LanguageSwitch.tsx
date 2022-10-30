@@ -1,6 +1,7 @@
 import logo from '../public/media/logo.jpg';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import Footer from '../components/modules/Footer';
 
 const LanguageSwitch = () => {
   const router = useRouter();
@@ -14,12 +15,12 @@ const LanguageSwitch = () => {
   };
 
   return (
-    <>
+    <div className="w-screen h-screen flex flex-col justify-between items-center">
       <div className="flex flex-row absolute left-5 top-5 justify-center items-center">
         <Image className="w-8 h-8" src={logo} alt="logo" />
         <p className="ml-2 font-quickLight">Maximilian Gravemeyer</p>
       </div>
-      <div className="w-screen h-screen flex justify-center items-center pb-20">
+      <div className="pb-20 w-full h-full flex justify-center items-center">
         <div className="flex flex-row">
           <p
             className="font-quickLight text-3xl cursor-pointer hover:text-stone-400"
@@ -36,7 +37,8 @@ const LanguageSwitch = () => {
           </p>
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 
