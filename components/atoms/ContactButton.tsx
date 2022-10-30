@@ -11,7 +11,7 @@ const ContactButton = ({
     <a
       href={target}
       className={
-        `text-white font-quickMedium bg-stone-900 w-full h-12 flex justify-center items-center cursor-pointer hover:bg-stone-700 ` +
+        `transition ease-in-out delay-50 hover:bg-white hover:text-black hover:border-[1px] hover:border-black text-white font-quickMedium bg-stone-900 w-full h-12 flex justify-center items-center cursor-pointer ` +
         `${className}`
       }
     >

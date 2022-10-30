@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+  color: white;
+  background: black;
+}
+
+.hover-text {
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1)
+    ),
+    linear-gradient(to right, black, black);
+  background-size: 100% 0, 0 0;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.hover-text:hover,
+.hover-text:focus {
+  background-size: 0 0.1em, 100% 0.05em;
+}
+
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 @font-face {
   font-family: 'Quicksand Bold';
   src: url('../public//fonts/Quicksand-Bold.ttf');

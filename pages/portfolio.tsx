@@ -40,7 +40,7 @@ const Portfolio: React.FC = () => {
                 {t('projectsSeparator')}
               </p>
               <JobsList />
-              <p className="font-quickBold text-lg mt-8">
+              <p className="font-quickBold text-lg mt-16">
                 {t('contactSeparator')}
               </p>
               <MobileContactButtons hideOnDesktop={false} />

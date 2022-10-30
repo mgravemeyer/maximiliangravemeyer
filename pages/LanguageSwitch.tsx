@@ -23,14 +23,14 @@ const LanguageSwitch = () => {
       <div className="w-full h-full flex justify-center items-center">
         <div className="flex flex-row">
           <p
-            className="font-quickLight text-3xl cursor-pointer hover:text-stone-400"
+            className="font-quickLight text-3xl cursor-pointer hover-text"
             onClick={selectEnglish}
           >
             English
           </p>
           <p className="font-quickLight text-3xl mx-4"> / </p>
           <p
-            className="font-quickLight text-3xl cursor-pointer hover:text-stone-400"
+            className="font-quickLight text-3xl cursor-pointer hover-text"
             onClick={selectGerman}
           >
             Deutsch
