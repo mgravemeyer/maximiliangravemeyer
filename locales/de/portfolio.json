@@ -9,5 +9,8 @@
   "phoneButton": "Telefon",
   "ttJob": "Entwicklung eines headless Onlineshops in einem Team. Es wurden moderne frameworks wie Next.js benutzt, während Daten und Services von verschiedenen anderen System mit eingebunden wurden.",
   "armbrJob": "Entwicklung von Webanwendungen, Shopware 5/6 Plugins, Skripte und die Wartung von Onlineshops.",
-  "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen."
+  "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen.",
+  "miconyJob": "Entwicklung eines Shopware 6 Templates für eine digitale E-Commerce Platform und ein iOS App Konzept.",
+  "aboutHeadline": "Über mich",
+  "skillsHeadline": "Fähigkeiten und Fokus"
 }

@@ -19,6 +19,7 @@ import profilePic from '../public/media/profile.jpg';
 import armbr from '../public/media/projects/armbr.png';
 import tt from '../public/media/projects/tt.jpg';
 import segler from '../public/media/projects/segler.jpg';
+import micony from '../public/media/projects/micony.jpg';
 
 const Portfolio: React.FC = () => {
   const { t, lang } = useTranslation('portfolio');
@@ -60,27 +61,29 @@ const Portfolio: React.FC = () => {
           <div className=" lg:ml-[285px] lg:w-[400px]">
             {/* //todo need to move this block under the profile picture */}
             <div className="mt-12">
-              <p className="font-quickMedium">About Me</p>
-              <p className="font-quickLight">{t('description')}</p>
+              <p className="font-quickMedium">{t('aboutHeadline')}</p>
+              <p className="font-quickLight mt-1">{t('description')}</p>
             </div>
             <div className="mt-8">
-              <p className="font-quickMedium">Skills & Focus</p>
-              <p className="font-quickLight">{t('firstSkill')}</p>
-              <p className="font-quickLight">{t('secondSkill')}</p>
-              <p className="font-quickLight">{t('thirdSkill')}</p>
+              <p className="font-quickMedium">{t('skillsHeadline')}</p>
+              <p className="font-quickLight mt-1">• {t('firstSkill')}</p>
+              <p className="font-quickLight mt-1">• {t('secondSkill')}</p>
+              <p className="font-quickLight mt-1">• {t('thirdSkill')}</p>
             </div>
             <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
               {t('projectsSeparator')}
             </p>
+
             <div className="font-quickMedium mt-4">
               <Image
                 className="mt-4 h-6 w-auto"
                 src={tt}
                 alt="tom tailor showcase"
               />
-              <p className="font-quickLight mt-2 ml-1">{t('ttJob')}</p>
+              <p className="font-quickLight mt-4 ml-1">{t('ttJob')}</p>
             </div>
-            <div className="font-quickMedium mt-8">
+
+            <div className="font-quickMedium mt-12">
               <div className="bg-black w-fit py-1 px-1 flex justify-center items-center">
                 <Image
                   className="h-10 w-auto mb-1"
@@ -88,16 +91,27 @@ const Portfolio: React.FC = () => {
                   alt="armbrüster consulting showcase"
                 />
               </div>
-              <p className="font-quickLight mt-2 ml-1">{t('armbrJob')}</p>
+              <p className="font-quickLight mt-4">{t('armbrJob')}</p>
             </div>
-            <div className="font-quickMedium mt-8">
+
+            <div className="font-quickMedium mt-12">
               <Image
                 className="mt-4 h-12 w-auto"
                 src={segler}
                 alt="segler showcase"
               />
-              <p className="font-quickLight mt-2 ml-1">{t('seglerJob')}</p>
+              <p className="font-quickLight mt-2">{t('seglerJob')}</p>
             </div>
+
+            <div className="font-quickMedium mt-12">
+              <Image
+                className="mt-4 h-12 w-auto"
+                src={micony}
+                alt="segler showcase"
+              />
+              <p className="font-quickLight mt-2">{t('miconyJob')}</p>
+            </div>
+
             <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
               {t('contactSeparator')}
             </p>
