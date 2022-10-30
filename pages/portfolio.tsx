@@ -25,102 +25,87 @@ const Portfolio: React.FC = () => {
   const { t, lang } = useTranslation('portfolio');
 
   return (
-    <>
-      <Head>
-        <title>Maximilian Gravemeyer</title>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Freelance Developer | Maximilian Gravemeyer"
-        />
-        <meta
-          name="keywords"
-          content="Gravemeyer, Freelancer, React, Next, Developer"
-        />
-        <meta name="author" content="Maximilian Gravemeyer" />
-      </Head>
-      <div className="flex flex-col w-full justify-center items-center mt-4 sm:mt-8 lg:mt-16 xl:mx-0">
-        <div className="w-full px-4 sm:px-32 lg:w-[900px] lg:px-0">
-          <div className="flex flex-col lg:flex-row">
-            <div className="flex flex-col lg:w-[26rem] lg:mt-12">
-              <Image className="w-16 h-16" src={logo} alt="logo" />
-              <h1 className=" font-quickLight mt-4 text-3xl mr-8 leading-normal">
-                {t('title')}
-              </h1>
-              <DesktopContactButtons />
-            </div>
-            <div className=" w-full">
-              <Image
-                className="mt-4 lg:mt-0"
-                src={profilePic}
-                alt="profile picture"
-              />
-            </div>
+    <div className="flex flex-col w-full justify-center items-center mt-4 sm:mt-8 lg:mt-16 xl:mx-0">
+      <div className="w-full px-4 sm:px-32 lg:w-[900px] lg:px-0">
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex flex-col lg:w-[26rem] lg:mt-12">
+            <Image className="w-16 h-16" src={logo} alt="logo" />
+            <h1 className=" font-quickLight mt-4 text-3xl mr-8 leading-normal">
+              {t('title')}
+            </h1>
+            <DesktopContactButtons />
           </div>
-          <MobileContactButtons hideOnDesktop />
-          <div className=" lg:ml-[285px] lg:w-[400px]">
-            {/* //todo need to move this block under the profile picture */}
-            <div className="mt-12">
-              <p className="font-quickMedium">{t('aboutHeadline')}</p>
-              <p className="font-quickLight mt-1">{t('description')}</p>
-            </div>
-            <div className="mt-8">
-              <p className="font-quickMedium">{t('skillsHeadline')}</p>
-              <p className="font-quickLight mt-1">• {t('firstSkill')}</p>
-              <p className="font-quickLight mt-1">• {t('secondSkill')}</p>
-              <p className="font-quickLight mt-1">• {t('thirdSkill')}</p>
-            </div>
-            <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
-              {t('projectsSeparator')}
-            </p>
-
-            <div className="font-quickMedium mt-4">
-              <Image
-                className="mt-4 h-6 w-auto"
-                src={tt}
-                alt="tom tailor showcase"
-              />
-              <p className="font-quickLight mt-4 ml-1">{t('ttJob')}</p>
-            </div>
-
-            <div className="font-quickMedium mt-12">
-              <div className="bg-black w-fit py-1 px-1 flex justify-center items-center">
-                <Image
-                  className="h-10 w-auto mb-1"
-                  src={armbr}
-                  alt="armbrüster consulting showcase"
-                />
-              </div>
-              <p className="font-quickLight mt-4">{t('armbrJob')}</p>
-            </div>
-
-            <div className="font-quickMedium mt-12">
-              <Image
-                className="mt-4 h-12 w-auto"
-                src={segler}
-                alt="segler showcase"
-              />
-              <p className="font-quickLight mt-2">{t('seglerJob')}</p>
-            </div>
-
-            <div className="font-quickMedium mt-12">
-              <Image
-                className="mt-4 h-12 w-auto"
-                src={micony}
-                alt="segler showcase"
-              />
-              <p className="font-quickLight mt-2">{t('miconyJob')}</p>
-            </div>
-
-            <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
-              {t('contactSeparator')}
-            </p>
-            <MobileContactButtons hideOnDesktop={false} />
+          <div className=" w-full">
+            <Image
+              className="mt-4 lg:mt-0"
+              src={profilePic}
+              alt="profile picture"
+            />
           </div>
         </div>
-        <Footer />
+        <MobileContactButtons hideOnDesktop />
+        <div className=" lg:ml-[285px] lg:w-[400px]">
+          {/* //todo need to move this block under the profile picture */}
+          <div className="mt-12">
+            <p className="font-quickMedium">{t('aboutHeadline')}</p>
+            <p className="font-quickLight mt-1">{t('description')}</p>
+          </div>
+          <div className="mt-8">
+            <p className="font-quickMedium">{t('skillsHeadline')}</p>
+            <p className="font-quickLight mt-1">• {t('firstSkill')}</p>
+            <p className="font-quickLight mt-1">• {t('secondSkill')}</p>
+            <p className="font-quickLight mt-1">• {t('thirdSkill')}</p>
+          </div>
+          <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
+            {t('projectsSeparator')}
+          </p>
+
+          <div className="font-quickMedium mt-4">
+            <Image
+              className="mt-4 h-6 w-auto"
+              src={tt}
+              alt="tom tailor showcase"
+            />
+            <p className="font-quickLight mt-4 ml-1">{t('ttJob')}</p>
+          </div>
+
+          <div className="font-quickMedium mt-12">
+            <div className="bg-black w-fit py-1 px-1 flex justify-center items-center">
+              <Image
+                className="h-10 w-auto mb-1"
+                src={armbr}
+                alt="armbrüster consulting showcase"
+              />
+            </div>
+            <p className="font-quickLight mt-4">{t('armbrJob')}</p>
+          </div>
+
+          <div className="font-quickMedium mt-12">
+            <Image
+              className="mt-4 h-12 w-auto"
+              src={segler}
+              alt="segler showcase"
+            />
+            <p className="font-quickLight mt-2">{t('seglerJob')}</p>
+          </div>
+
+          <div className="font-quickMedium mt-12">
+            <Image
+              className="mt-4 h-12 w-auto"
+              src={micony}
+              alt="segler showcase"
+            />
+            <p className="font-quickLight mt-2">{t('miconyJob')}</p>
+          </div>
+
+          <p className="font-quickLight mt-32 mb-32 flex justify-center items-center">
+            {t('contactSeparator')}
+          </p>
+          <MobileContactButtons hideOnDesktop={false} />
+        </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 
