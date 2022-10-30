@@ -20,7 +20,7 @@ const LanguageSwitch = () => {
         <Image className="w-8 h-8" src={logo} alt="logo" />
         <p className="ml-2 font-quickLight">Maximilian Gravemeyer</p>
       </div>
-      <div className="pb-20 w-full h-full flex justify-center items-center">
+      <div className="w-full h-full flex justify-center items-center">
         <div className="flex flex-row">
           <p
             className="font-quickLight text-3xl cursor-pointer hover:text-stone-400"
