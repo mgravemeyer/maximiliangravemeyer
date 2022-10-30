@@ -1,7 +1,7 @@
-import logo from '../public/media/logo.jpg';
+import logo from '../../public/media/logo.jpg';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import Footer from '../components/modules/Footer';
+import Footer from './Footer';
 
 const LanguageSwitch = () => {
   const router = useRouter();

@@ -1,4 +1,4 @@
-import LanguageSwitch from './LanguageSwitch';
+import LanguageSwitch from '../components/modules/LanguageSwitch';
 
 const IndexPage = () => {
   return <LanguageSwitch />;
