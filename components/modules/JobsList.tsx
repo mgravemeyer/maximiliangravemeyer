@@ -11,7 +11,7 @@ const JobsList = () => {
 
   const jobs: Job[] = [
     {
-      image: undefined,
+      headline: t('ttHeadline'),
       translation: t('ttJob'),
       alt: 'Tom Tailor Job',
     },
