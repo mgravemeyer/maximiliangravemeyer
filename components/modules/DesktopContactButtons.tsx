@@ -13,7 +13,7 @@ const DesktopContactButtons = () => {
         className=" w-fit font-quickLight mt-[2px] text-stone-900 hover-text"
         href={`tel:${PHONE}`}
       >
-        +49 162 4375779
+        +49 175 7441765
       </a>
       <a
         className=" w-fit font-quickLight mt-4 text-stone-900 hover-text"

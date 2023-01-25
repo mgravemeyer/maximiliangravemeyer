@@ -139,7 +139,7 @@ const Datenschutz = () => {
       </p>{' '}
       <p>Maximilian Gravemeyer, Weinbergsweg 32, 10119 Berlin</p>
       <p>
-        Telefon: +49 162 4375779
+        Telefon: +49 175 7441765
         <br />
         E-Mail: m.gravemeyer@icloud.com
       </p>
