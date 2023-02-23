@@ -2,12 +2,8 @@ import { Job } from '../../types/Job';
 import JobExperience from '../atoms/JobExperience';
 import useTranslation from 'next-translate/useTranslation';
 
-import armbr from '../../public/media/projects/armbr.png';
-import segler from '../../public/media/projects/segler.png';
-import micony from '../../public/media/projects/micony.png';
-
 const JobsList = () => {
-  const { t, lang } = useTranslation('portfolio');
+  const { t } = useTranslation('portfolio');
 
   const jobs: Job[] = [
     {
