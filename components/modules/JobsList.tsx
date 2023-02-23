@@ -11,22 +11,27 @@ const JobsList = () => {
 
   const jobs: Job[] = [
     {
+      headline: t('horschHeadline'),
+      translation: t('horschJob'),
+      alt: 'Tom Tailor Job',
+    },
+    {
       headline: t('ttHeadline'),
       translation: t('ttJob'),
       alt: 'Tom Tailor Job',
     },
     {
-      image: armbr,
+      headline: t('armbrHeadline'),
       translation: t('armbrJob'),
       alt: 'Armbrüster Consulting Job',
     },
     {
-      image: segler,
+      headline: t('seglerHeadline'),
       translation: t('seglerJob'),
       alt: 'Segler Job',
     },
     {
-      image: micony,
+      headline: t('miconyHeadline'),
       translation: t('miconyJob'),
       alt: 'Micony Job',
     },
