@@ -9,7 +9,7 @@ const JobsList = () => {
     {
       headline: t('horschHeadline'),
       translation: t('horschJob'),
-      alt: 'Tom Tailor Job',
+      alt: 'Horsch Job',
     },
     {
       headline: t('ttHeadline'),
@@ -30,6 +30,11 @@ const JobsList = () => {
       headline: t('miconyHeadline'),
       translation: t('miconyJob'),
       alt: 'Micony Job',
+    },
+    {
+      headline: t('horvathHeadline'),
+      translation: t('horvathJob'),
+      alt: 'Horvath Job',
     },
   ];
 

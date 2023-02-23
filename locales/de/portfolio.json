@@ -7,16 +7,21 @@
   "projectsSeparator": "Projekte",
   "contactSeparator": "Kontakt",
   "phoneButton": "Telefon",
+
   "horschHeadline": "Horsch Maschinenbau GmbH",
   "ttHeadline": "Tom Tailor GmbH",
   "armbrHeadline": "Armbrüster Consulting GmbH",
   "seglerHeadline": "Segler-Förderanlagen Maschinenfabrik GmbH",
   "miconyHeadline": "Micony GmbH",
+  "horvathHeadline": "Horváth AG",
+
   "horschJob": "Ich habe mehrere Tools erstellt, darunter ein Bildoptimierungstool, das speziell für Bilder entwickelt wurde, die von einer KI verarbeitet werden.",
   "ttJob": "Entwicklung eines headless Onlineshops in einem Team. Es wurden moderne frameworks wie Next.js benutzt, während Daten und Services von verschiedenen anderen System mit eingebunden wurden.",
   "armbrJob": "Entwicklung von Webanwendungen, Shopware 5/6 Plugins, Skripte und die Wartung von Onlineshops.",
   "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen.",
   "miconyJob": "Entwicklung eines Shopware 6 Templates für eine digitale E-Commerce Platform und ein iOS App Konzept.",
+  "horvathJob": "I created a marketing website to promote a new digital product..",
+
   "aboutHeadline": "Über mich",
   "skillsHeadline": "Fähigkeiten und Fokus"
 }
