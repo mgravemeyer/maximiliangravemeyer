@@ -32,7 +32,7 @@ const Portfolio: React.FC = () => {
               alt="profile picture"
             />
             <MobileContactButtons hideOnDesktop />
-            <div className="lg:w-[400px] mt-12">
+            <div className="lg:w-[450px] mt-12">
               <p className="font-quickBold text-lg">{t('aboutHeadline')}</p>
               <p className="font-quickLight mt-1">{t('description')}</p>
               <SkillsList />
