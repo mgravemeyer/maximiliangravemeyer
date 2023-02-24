@@ -10,6 +10,7 @@ const JobsList = () => {
       headline: t('horschHeadline'),
       translation: t('horschJob'),
       alt: 'Horsch Job',
+      current: true
     },
     {
       headline: t('ttHeadline'),
