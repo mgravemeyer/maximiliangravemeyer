@@ -141,7 +141,7 @@ const Datenschutz = () => {
       <p>
         Telefon: +49 175 7441765
         <br />
-        E-Mail: m.gravemeyer@icloud.com
+        E-Mail: contact@mgravemeyer.com
       </p>
       <p>
         Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person,

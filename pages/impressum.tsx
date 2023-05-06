@@ -31,7 +31,7 @@ const Impressum = () => {
       <p>
         Telefon: +49 175 7441765
         <br />
-        E-Mail: m.gravemeyer@icloud.com
+        E-Mail: contact@mgravemeyer.com
       </p>
 
       <h2>Redaktionell verantwortlich</h2>
