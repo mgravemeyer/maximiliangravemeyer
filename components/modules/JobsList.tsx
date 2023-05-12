@@ -6,12 +6,12 @@ const JobsList = () => {
   const { t } = useTranslation('portfolio');
 
   const jobs: Job[] = [
-    {
-      headline: t('horschHeadline'),
-      translation: t('horschJob'),
-      alt: 'Horsch Job',
-      current: true
-    },
+    // {
+    //   headline: t('horschHeadline'),
+    //   translation: t('horschJob'),
+    //   alt: 'Horsch Job',
+    //   current: true
+    // },
     {
       headline: t('ttHeadline'),
       translation: t('ttJob'),
