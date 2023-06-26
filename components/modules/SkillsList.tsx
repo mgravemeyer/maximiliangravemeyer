@@ -9,6 +9,7 @@ const SkillsList = () => {
       <p className="font-quickLight mt-1">• {t('firstSkill')}</p>
       <p className="font-quickLight mt-1">• {t('secondSkill')}</p>
       <p className="font-quickLight mt-1">• {t('thirdSkill')}</p>
+      <p className="font-quickLight mt-1">• {t('fourthSkill')}</p>
     </div>
   );
 };

@@ -19,14 +19,15 @@ const JobsList = () => {
       current: true
     },
     {
-      headline: t('ttHeadline'),
-      translation: t('ttJob'),
-      alt: 'Tom Tailor Job',
-    },
-    {
       headline: t('armbrHeadline'),
       translation: t('armbrJob'),
       alt: 'Armbrüster Consulting Job',
+      current: true
+    },
+    {
+      headline: t('ttHeadline'),
+      translation: t('ttJob'),
+      alt: 'Tom Tailor Job',
     },
     {
       headline: t('seglerHeadline'),

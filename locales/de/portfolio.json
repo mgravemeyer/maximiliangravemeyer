@@ -4,6 +4,7 @@
   "firstSkill": "Frontend Entwicklung (React, Next, Vue)",
   "secondSkill": "Backend Entwicklung (Node, Express, Symfony)",
   "thirdSkill": "UI/UX Optimierung und Entwicklung",
+  "fourthSkill": "E-Commerce-Entwicklung mit Shopware 5/6, JTL und Eigenentwicklungen",
   "projectsSeparator": "Projekte",
   "contactSeparator": "Kontakt",
   "phoneButton": "Telefon",
@@ -17,12 +18,12 @@
   "miconyHeadline": "Micony GmbH",
   "horvathHeadline": "Horváth AG",
 
-  "horschJob": "Entwicklung eines Bildverwaltungstools für die Nutzung im Bereich des maschinellen Lernens.\n",
-  "ttJob": "Entwicklung eines headless Onlineshops in einem Team. Es wurden moderne frameworks wie Next.js benutzt, während Daten und Services von verschiedenen anderen System mit eingebunden wurden.",
-  "armbrJob": "Entwicklung von Webanwendungen, Shopware 5/6 Plugins, Skripte und die Wartung von Onlineshops.",
-  "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen.",
-  "miconyJob": "Entwicklung eines Shopware 6 Templates für eine digitale E-Commerce Platform und ein iOS App Konzept.",
-  "horvathJob": "Konzeption, Entwurf und Umsetzung einer Marketing-Website für ein neues digitales Produkt.",
+  "horschJob": "Konzeption und Entwicklung mehrerer Webapps und eines Shopware 6 Plugins\n",
+  "ttJob": "Entwicklung eines headless Onlineshops in einem Team. Es wurden moderne frameworks wie Next.js benutzt, während Daten und Services von verschiedenen anderen System mit eingebunden wurden",
+  "armbrJob": "Entwicklung von Webanwendungen, JTL Shop Plugins, Shopware 5/6 Plugins, Skripten und die Wartung von Onlineshops",
+  "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen",
+  "miconyJob": "Entwicklung eines Shopware 6 Templates für eine digitale E-Commerce Platform und ein iOS App Konzept",
+  "horvathJob": "Konzeption, Entwurf und Umsetzung einer Marketing-Website für ein neues digitales Produkt",
 
   "aboutHeadline": "Über mich",
   "skillsHeadline": "Fähigkeiten und Fokus"
