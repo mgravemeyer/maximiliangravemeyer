@@ -54,8 +54,8 @@ const JobsList = () => {
 
   return (
     <>
-      {[...jobs].map((job, key) => {
-        return <JobExperience job={job} key={key} />;
+      {[...jobs].map((job, index) => {
+        return <JobExperience job={job} index={index} />;
       })}
     </>
   );
