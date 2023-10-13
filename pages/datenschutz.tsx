@@ -137,11 +137,11 @@ const Datenschutz = () => {
         Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser
         Website ist:
       </p>{' '}
-      <p>Maximilian Gravemeyer, Weinbergsweg 32, 10119 Berlin</p>
+      <p>Maximilian Gravemeyer, Kopenhagener Straße 27, 10437 Berlin</p>
       <p>
         Telefon: +49 175 7441765
         <br />
-        E-Mail: contact@mgravemeyer.com
+        E-Mail: maximilian@gravemeyer.com
       </p>
       <p>
         Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person,

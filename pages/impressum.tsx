@@ -22,20 +22,20 @@ const Impressum = () => {
         Softwareentwicklung als Dienstleistung, Ver&ouml;ffentlichung von
         Artikeln.
         <br />
-        Weinbergsweg 20
+        Kopenhagener Straße 27
         <br />
-        10119 Berlin
+        10437 Berlin
       </p>
 
       <h2>Kontakt</h2>
       <p>
         Telefon: +49 175 7441765
         <br />
-        E-Mail: contact@mgravemeyer.com
+        E-Mail: maximilian@gravemeyer.com
       </p>
 
       <h2>Redaktionell verantwortlich</h2>
-      <p>Maximilian Gravemeyer, Weinbergsweg 20, 10119 Berlin</p>
+      <p>Maximilian Gravemeyer, Kopenhagener Straße 27, 10437 Berlin</p>
 
       <h2>EU-Streitschlichtung</h2>
       <p>
