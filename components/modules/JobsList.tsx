@@ -17,12 +17,14 @@ const JobsList = () => {
       translation: t('horschJob'),
       time: t('horschTime'),
       alt: 'Horsch Job',
+      current: true
     },
     {
       headline: t('armbrHeadline'),
       translation: t('armbrJob'),
       time: t('armbrTime'),
       alt: 'Armbrüster Consulting Job',
+      current: true
     },
     {
       headline: t('ttHeadline'),
