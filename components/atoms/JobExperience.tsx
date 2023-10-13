@@ -4,7 +4,6 @@ import useTranslation from 'next-translate/useTranslation';
 
 const JobExperience = ({ job, index }: { job: Job; index: number }) => {
   const { t } = useTranslation('portfolio');
-  const currentLabel = t('currentProject');
 
   console.log(index)
 

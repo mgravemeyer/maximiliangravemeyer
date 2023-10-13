@@ -6,5 +6,4 @@ export type Job = {
   translation: string
   time: string
   alt: string
-  current?: boolean
 };
