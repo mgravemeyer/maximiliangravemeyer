@@ -4,6 +4,7 @@ export type Job = {
   headline?: string
   image?: StaticImageData
   translation: string
+  time: string
   alt: string
   current?: boolean
 };

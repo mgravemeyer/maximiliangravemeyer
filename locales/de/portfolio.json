@@ -1,6 +1,6 @@
 {
   "title": "Ich bin freiberuflicher Webentwickler",
-  "description": "Ich bin ein Full-Stack-Entwickler mit fünf Jahren Erfahrung, der sich auf Webanwendungen und E-Commerce-Shops spezialisiert hat. Neben der Programmierung lege ich besonderen Wert darauf, eine ansprechende Benutzeroberfläche zu gestalten, die sich nahtlos in die Corporate Identity des Kunden integriert. Dank meiner Erfahrung im Projektmanagement kann ich komplexe Projekte in überschaubare Teilaufgaben aufteilen und Budgets und Zeitpläne überwachen. Dafür nutze ich häufig agile Methoden wie Scrum und Kanban.\n\nLassen Sie uns gemeinsam großartige Software entwickeln, die nicht nur hervorragend aussieht, sondern auch eine großartige Benutzererfahrung bietet.",
+  "description": "Ich habe mich auf die Entwicklung von Web-Softwarelösungen spezialisiert. Mit 5 Jahren praktischer Erfahrung bringe ich Kenntnisse in Design, Konzeptualisierung und Entwicklung mit, um innovative digitale Lösungen für meine Kunden zu entwickeln.",
   "firstSkill": "Frontend Entwicklung (React, Next, Vue)",
   "secondSkill": "Backend Entwicklung (Node, Express, Symfony)",
   "thirdSkill": "UI/UX Optimierung und Entwicklung",
@@ -24,6 +24,13 @@
   "seglerJob": "Entwickelt wurde eine iOS Enterprise App zur Protokolierung von Internen Prozessen. Die App hat einen Preis vom Team `Zukunftsfest` gewonnen",
   "miconyJob": "Entwicklung eines Shopware 6 Templates für eine digitale E-Commerce Platform und ein iOS App Konzept",
   "horvathJob": "Konzeption, Entwurf und Umsetzung einer Marketing-Website für ein neues digitales Produkt",
+
+  "horschTime": "Feb 2022 - heute",
+  "ttTime": "Sep 2021 - Feb 2023",
+  "armbrTime": "Jul 2018 - heute",
+  "seglerTime": "Jul 2018 - Aug 2022",
+  "miconyTime": "Feb 2021 - Jun 2021",
+  "horvathTime": "Apr 2020 - Jul 2020",
 
   "aboutHeadline": "Über mich",
   "skillsHeadline": "Fähigkeiten und Fokus"

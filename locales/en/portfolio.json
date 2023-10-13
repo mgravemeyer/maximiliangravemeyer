@@ -1,6 +1,6 @@
 {
   "title": "I’m a freelance web developer",
-  "description": "I'm a full-stack developer with 5 years of experience who specializes in building custom web applications and e-Commerce shops. In addition to my development skills, I'm also passionate about creating great user experiences through design and usability. What sets me apart is my strong focus on project management, where I work closely with clients to break down complex projects into manageable tasks and prioritize work using Agile methodologies like Scrum and Kanban.\n\nLet's work together to build software that not only looks great but also delivers a seamless and intuitive user experience.",
+  "description": "Specializing in the Art of Crafting Web Software Solutions. With 5 years of hands-on experience, I bring design, conceptualization, and development expertise to empower my clients with innovative digital solutions.",
   "firstSkill": "Frontend Development (React, Next, Vue)",
   "secondSkill": "Backend Development (Node, Express, Symfony)",
   "thirdSkill": "UI/UX optimization and prototyping",
@@ -24,6 +24,13 @@
   "seglerJob": "Developing an award winning iOS Enterprise App for protocolling internal processes.",
   "miconyJob": "Developing a Shopware 6 template for a digital e-commerce platform and an iOS app concept.",
   "horvathJob": "To promote a new digital product, I created a marketing website from start to finish, including concept development, design, and implementation.",
+
+  "horschTime": "Feb 2022 - heute",
+  "ttTime": "Sep 2021 - Feb 2023",
+  "armbrTime": "Jul 2018 - heute",
+  "seglerTime": "Jul 2018 - Aug 2022",
+  "miconyTime": "Feb 2021 - Jun 2021",
+  "horvathTime": "Apr 2020 - Jul 2020",
 
   "aboutHeadline": "About Me",
   "skillsHeadline": "Skills & Focus"
